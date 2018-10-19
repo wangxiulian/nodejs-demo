@@ -5,7 +5,7 @@ const http    = require('http'),
 
 
 var city = process.argv[2] || '石家庄';
-var addr = 'http://api.jisuapi.com/weather/query?appkey=d4afb00114742b00&city=' + city;
+var addr = 'http://v.juhe.cn/weather/index?cityname=' + city + '&key=70b20823f67b5f0ca3358b796fd83260';
 
 http.get(new URL(addr), (res) => {
   var result = '';

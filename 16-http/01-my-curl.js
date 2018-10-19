@@ -8,7 +8,7 @@ var options = url.parse(addr);
 
 options.method = 'GET';
 options.headers = {
-  'User-Agent': '02-my-curl.js'
+  'User-Agent': '01-my-curl.js'
 };
 
 http.get(options, (res) => {

@@ -9,7 +9,7 @@ function opt(addr) {
   var options = url.parse(addr);
 
   options.method = 'GET';
-  options.headers = { 'User-Agent': '02-my-curl.js' };
+  options.headers = { 'User-Agent': '05-redirection.js' };
 
   return options;
 }
